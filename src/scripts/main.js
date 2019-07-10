@@ -1,4 +1,8 @@
-console.log("Your Webpack application is set up and ready to go. Please start writing code.")
+import {getFromDB} from "./api.js"
+import {postToDom, postComToDom} from "./api.js"
 
-const test = document.querySelector("#container")
-test.innerHTML = "<h1>Is this Working</h1>"
+
+console.log("Your Webpack application is set up and ready to go. Please start writing code.")
+getFromDB("places")
+getFromDB("comments")
+//postToDom()

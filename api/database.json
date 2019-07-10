@@ -1,16 +1,22 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+ "places": [
+  {
+     "id": 1,
+     "name": "Italy",
+     "visa_required": false
+   },
+   {
+     "id": 2,
+     "name": "Switzerland",
+     "visa_required": true
+  },
+  {
+     "id": 3,
+     "name": "France",
+     "visa_required": false
     }
   ],
+  "interests": [],
   "comments": [
     {
       "id": 1,
